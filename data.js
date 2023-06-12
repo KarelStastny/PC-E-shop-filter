@@ -169,15 +169,16 @@ product.map( (oneProduct) => {
                     
                     <div class="card-info">
                         <h2 class="name">${oneProduct.name}</h2>
-                        <div class="category">${oneProduct.category}</div>
-                        <div class="mark">${oneProduct.mark}</div>
-                        <div class="quantity">${oneProduct.quantity}</div>
-                        <div class="price">${oneProduct.price}</div>
+                        <div class="category"> Typ notebooku: ${oneProduct.category}</div>
+                        <div class="mark">Značka: ${oneProduct.mark}</div>
+                        <div class="quantity"> Množství: ${oneProduct.quantity}</div>
+                        <div class="price"> Cena: ${oneProduct.price} Kč</div>
+
                         <div class="details">
-                            <p class="procesor">${oneProduct.details.procesor}</p>
-                            <p class="os">${oneProduct.details.os}</p>
-                            <p class="memory">${oneProduct.details.memory}</p>
-                            <div class="display">${oneProduct.details.dispaly}</div>
+                            <span class="procesor">${oneProduct.details.procesor},</span>
+                            <span class="os">${oneProduct.details.os},</span>
+                            <span class="memory">${oneProduct.details.memory},</span>
+                            <span class="display",>${oneProduct.details.dispaly}</span>
                         </div>
                     </div>
                 </div>
